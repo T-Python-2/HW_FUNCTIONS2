@@ -3,9 +3,9 @@
 '''
 
 def negative_numbers(num1:int, num2:int):
-    if num1 and num2 < 0:
+    if (num1 and num2 < 0):
         #Check that the first parameter is smaller than the second parameter .
-        if num1 < num2:
+        if (num1 < num2):
             print("the first parameter should be the greater ")
         else : 
             #Using a loop Print all the numbers bettween the smaller int up to the bigger int .
@@ -18,5 +18,6 @@ def negative_numbers(num1:int, num2:int):
 
 
 
-negative_numbers(5,-5)
-
+negative_numbers(-3,-15)
+negative_numbers(3, -15)
+negative_numbers(-20, -15)
